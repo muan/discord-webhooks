@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 module.exports = async function(req, res) {
-  if (!req.query.discord) {
+  if (!req.query.discord || req.body.action !== 'create') {
     return res.end()
   }
   const body = {
