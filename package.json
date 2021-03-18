@@ -1,0 +1,23 @@
+{
+  "name": "discord-webhooks",
+  "version": "1.0.0",
+  "description": "Parse Heroku deploy payload.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muan/discord-webhooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muan/discord-webhooks/issues"
+  },
+  "homepage": "https://github.com/muan/discord-webhooks#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
